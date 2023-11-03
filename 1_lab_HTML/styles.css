@@ -1,0 +1,55 @@
+h1{
+  font-family: 'Arial', 'Verdana', sans-serif;
+}
+
+.c-item {
+  height: 480px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.body {background-color: #8A2BE2;}
+
+@font-face {
+  font-family: "Rocher";
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+h1.purples {
+  font-family: "Rocher";
+  text-align: center;
+  font-size: 80px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.purples {
+  margin: -80px;
+}
+@font-palette-values --Purples {
+  font-family: Rocher;
+  base-palette: 6;
+}
+.purples {
+  font-palette: --Purples;
+}
+
+.square-block {
+  width:900px; /*ширина */
+  height:1500px; /*высота */
+  background:#895cd1; /*фоновый цвет*/
+  color:#000105; /*цвет шрифта*/
+  text-align:center; /*выравнивание текста по центру*/
+  /* text-transform:uppercase; написание текста заглавными буквами */
+  line-height:110px; /*высота строки текста*/
+  float:left;/*обтекане блока по левому краю (при необходимости)*/
+  border-radius: 20px;
+  position: relative;
+  top: -10x; 
+  right: -700px;
+  }
